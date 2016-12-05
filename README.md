@@ -3,6 +3,11 @@ FroggerClone
 
 A clone of the classic game Frogger, written in C using libSDL.
 
+Instructions
+============
+
+Move with `W`, `S`, `A`, `D`. Click on the bottom-left bar to adjust game speed.
+
 Building Instructions
 =====================
 
@@ -11,14 +16,14 @@ Tools
 
 *   Visual Studio
 
-        Tested using Visual Studio Express 2013 on Desktop.
+        Tested using Visual Studio Community 2015.
 
 Dependencies
 ------------
 
 The numbers in the parentheses denote tested revisions.
 
-*   Simple DirectMedia Layer (2.0.3)
+*   Simple DirectMedia Layer (2.0.5)
 
         Provides graphics, input handling and threading.
         Website: https://www.libsdl.org/
@@ -27,7 +32,7 @@ Steps
 -----
 
 1.  Download dependencies into corresponding directories. For example,
-    put `SDL2-devel-2.0.3-VC.zip` into `Dependency\SDL2`.
+    put `SDL2-devel-2.0.5-VC.zip` into `Dependency\SDL2`.
 
 2.  Extract the archives in-place.
 

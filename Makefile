@@ -1,12 +1,12 @@
 CC       = CL.EXE
 CFLAGS   = /MDd /W3 /Od
 OFLAGS   = /MD /W3 /Ox
-LFLAGS   = /subsystem:Windows /machine:i386 /nodefaultlib /manifest:no
+LFLAGS   = /subsystem:Windows /machine:i386 /manifest:no
 
 SRCDIR   = Source
 DEPDIR   = Dependency
 
-SDL2     = $(DEPDIR)\SDL2\SDL2-2.0.3
+SDL2     = $(DEPDIR)\SDL2\SDL2-2.0.5
 
 INCL     = /I"$(SDL2)\include"
 LIBS     = msvcrt.lib kernel32.lib SDL2.lib SDL2main.lib
